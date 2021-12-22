@@ -1,3 +1,8 @@
-.someClass {
+.filterClass {
+    background: aquamarine;
+}
 
+.styleForLetter {
+    text-align: center;
+    border: 1px solid black;
 }

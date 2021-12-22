@@ -16,7 +16,6 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     }
 ) => {
     const mappedOptions: JSX.Element[] | undefined = options?.map((el, i) => {
-        debugger
         return (
             <option
                 className={restProps.value == i ? s.hoverElement : ''}
