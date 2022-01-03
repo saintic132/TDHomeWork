@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1556203c43c199486c8c812394ea4990",
+    "revision": "bfe687375066b81a6eb1934959cc0b38",
     "url": "/TDHomeWork/index.html"
   },
   {
-    "revision": "1cc4398a1a39033f78b1",
+    "revision": "2f41d29a57c09bbf722d",
     "url": "/TDHomeWork/static/css/main.b550b761.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TDHomeWork/static/js/2.f5538a5c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cc4398a1a39033f78b1",
-    "url": "/TDHomeWork/static/js/main.c39cec39.chunk.js"
+    "revision": "2f41d29a57c09bbf722d",
+    "url": "/TDHomeWork/static/js/main.6070ebbb.chunk.js"
   },
   {
     "revision": "1a662f839cb521bf649d",
