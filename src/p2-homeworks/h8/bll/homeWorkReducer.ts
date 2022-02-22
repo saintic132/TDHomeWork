@@ -1,10 +1,11 @@
 import {UserType} from "../HW8";
 
-type SortUpType = {
+type SortType = {
     type: string
-    payload: string
+    payload: string | number
 }
-type ActionsType = SortUpType
+
+type ActionsType = SortType
 
 
 export const homeWorkReducer = (state: Array<UserType>, action: ActionsType): Array<UserType> => { // need to fix any
