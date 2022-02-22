@@ -27,9 +27,6 @@ function HW7() {
                     value={value}
                     onChangeOption={onChangeOption}
                 />
-                <div>
-                    <a href="https://github.com/saintic132/TDHomeWork/edit/master/src/p2-homeworks/h7/HW7.tsx">Тут должен быть 'Radio button' но ее не видно(click)</a>
-                </div>
             </div>
 
             <hr/>
