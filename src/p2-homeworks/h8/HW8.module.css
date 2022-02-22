@@ -1,0 +1,9 @@
+.newBorder {
+    width: 130px;
+    border: 1px solid black;
+}
+
+.tdBody {
+    display: flex;
+    justify-content: flex-end;
+}
