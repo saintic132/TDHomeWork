@@ -9,40 +9,6 @@
 
 .homeName {
     display: flex;
-    justify-content: center;
-}
-
-.studyNames {
-    display: flex;
-    flex-direction: column;
-}
-
-.preJunior, .junior {
-    display: flex;
-    margin-top: 20px;
-}
-
-.preJuniorName, .juniorName {
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-}
-
-.preJuniorLessons, .juniorLessons {
-    display: flex;
-    flex: auto;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-left: 20px;
-}
-
-.preJuniorLessons > div, .juniorLessons > div {
-    width: 150px;
-    height: 25px;
-    color: white;
-    background: #20b2aa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
