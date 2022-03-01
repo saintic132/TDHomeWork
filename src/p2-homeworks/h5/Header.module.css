@@ -1,30 +1,48 @@
 .headerNames {
-    width: 600px;
-    margin-left: 250px;
+    width: 800px;
+    height: 100px;
+    margin: 20px 0 50px 250px;
     display: flex;
-    justify-content: space-around;
-
+    flex-direction: column;
+    font-size: 16px;
 }
 
-.headerNames > a > div {
-    width: 150px;
-    height: 40px;
-    font-size: 20px;
-    color: white;
-    background: #20b2aa;
-    margin: 5px;
+.homeName {
+    display: flex;
+    justify-content: center;
+}
+
+.studyNames {
+    display: flex;
+    flex-direction: column;
+}
+
+.preJunior, .junior {
+    display: flex;
+    margin-top: 20px;
+}
+
+.preJuniorName, .juniorName {
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 
-.headerNames >  a {
+.preJuniorLessons, .juniorLessons {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.preJuniorLessons > div, .juniorLessons > div {
+    width: 150px;
+    height: 25px;
     color: white;
-    text-decoration: none;
-}
-
-.headerNames > a:hover > div {
-    text-decoration: underline;
-    background: mediumslateblue;
-    transition: 0.3s;
+    background: #20b2aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
