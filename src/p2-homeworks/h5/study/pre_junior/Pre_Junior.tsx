@@ -33,7 +33,7 @@ function Pre_Junior() {
                 {collapsed &&
                 lessonsArray.map(el => {
 
-                    const activePage = '/pre-junior'
+                    const activePage = `/pre-junior/${el.id}`
 
                     return (
                         <NavLink to={activePage}>

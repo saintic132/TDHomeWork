@@ -12,9 +12,9 @@ function Junior() {
     let [collapsed, setCollapsed] = useState<boolean>(false);
 
     const lessonsArray: lessonsArrayType[] = [
-        {id: 1, title: 'HomeWork 6'},
-        {id: 2, title: 'HomeWork 7'},
-        {id: 3, title: 'HomeWork 8'},
+        {id: 6, title: 'HomeWork 6'},
+        {id: 7, title: 'HomeWork 7'},
+        {id: 8, title: 'HomeWork 8'},
     ]
 
     const onClickShowButton = () => {
@@ -32,7 +32,7 @@ function Junior() {
                 {collapsed &&
                 lessonsArray.map(el => {
 
-                    const activePage = '/junior'
+                    const activePage = `/junior/${el.id}`
 
                     return (
                         <NavLink to={activePage}>

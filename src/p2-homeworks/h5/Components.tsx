@@ -6,8 +6,8 @@ import Error404 from "./pages/Error404";
 
 
 export const PATH = {
-    PRE_JUNIOR: '/pre-junior',
-    JUNIOR: '/junior'
+    PRE_JUNIOR: '/pre-junior/*',
+    JUNIOR: '/junior/*'
 }
 
 function Components() {
