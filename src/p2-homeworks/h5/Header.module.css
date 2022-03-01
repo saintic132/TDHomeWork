@@ -1,0 +1,30 @@
+.headerNames {
+    width: 600px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.headerNames > div {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background: #20b2aa;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerNames > div > a {
+    color: white;
+    text-decoration: none;
+}
+
+.headerNames > div > a:hover {
+    text-decoration: underline;
+    background: mediumslateblue;
+    transition: 0.3s;
+}
