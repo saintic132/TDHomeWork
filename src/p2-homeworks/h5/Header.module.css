@@ -6,7 +6,7 @@
 
 }
 
-.headerNames > div {
+.headerNames > a > div {
     width: 150px;
     height: 40px;
     font-size: 20px;
@@ -18,12 +18,12 @@
     align-items: center;
 }
 
-.headerNames > div > a {
+.headerNames >  a {
     color: white;
     text-decoration: none;
 }
 
-.headerNames > div > a:hover {
+.headerNames > a:hover > div {
     text-decoration: underline;
     background: mediumslateblue;
     transition: 0.3s;

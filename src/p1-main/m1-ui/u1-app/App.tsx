@@ -12,14 +12,14 @@ import HW8 from '../../../p2-homeworks/h8/HW8'
 function App() {
 
     let [state, setState] = useState([
-        // {id: 1, title: 'HomeWork 1' , collapse: false, component: <HW1 />},
-        // {id: 2, title: 'HomeWork 2' , collapse: false, component: <HW2 />},
-        // {id: 3, title: 'HomeWork 3' , collapse: false, component: <HW3 />},
-        // {id: 4, title: 'HomeWork 4' , collapse: false, component: <HW4 />},
+        {id: 1, title: 'HomeWork 1' , collapse: false, component: <HW1 />},
+        {id: 2, title: 'HomeWork 2' , collapse: false, component: <HW2 />},
+        {id: 3, title: 'HomeWork 3' , collapse: false, component: <HW3 />},
+        {id: 4, title: 'HomeWork 4' , collapse: false, component: <HW4 />},
         {id: 5, title: 'HomeWork 5' , collapse: true, component: <HW5 />},
-        // {id: 6, title: 'HomeWork 6' , collapse: false, component: <HW6 />},
-        // {id: 7, title: 'HomeWork 7' , collapse: false, component: <HW7 />},
-        // {id: 8, title: 'HomeWork 8' , collapse: false, component: <HW8 />}
+        {id: 6, title: 'HomeWork 6' , collapse: false, component: <HW6 />},
+        {id: 7, title: 'HomeWork 7' , collapse: false, component: <HW7 />},
+        {id: 8, title: 'HomeWork 8' , collapse: false, component: <HW8 />}
     ]);
 
     const onClickCollapse = (id: number) => {

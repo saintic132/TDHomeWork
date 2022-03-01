@@ -6,25 +6,37 @@ function Header() {
     return (
         <div className={s.headerNames}>
 
-            <div>
-                <NavLink to='/'>Home</NavLink>
-            </div>
+            <NavLink to='/'>
+                <div>
+                    Home
+                </div>
+            </NavLink>
 
-            <div>
-                <NavLink to='/pages'>1</NavLink>
-            </div>
+            <NavLink to='/pre-junior'>
+                <div>
+                    1
+                </div>
+            </NavLink>
 
-            <div>
-                <NavLink to="/pages">2</NavLink>
-            </div>
+            <NavLink to="/pre-junior">
+                <div>
+                    2
+                </div>
+            </NavLink>
 
-            <div>
-                <NavLink to="/pages">3</NavLink>
-            </div>
+            <NavLink to="/pre-junior">
+                <div>
+                    3
+                </div>
+            </NavLink>
 
-            <div>
-                <NavLink to="/pages">4</NavLink>
-            </div>
+            <NavLink to="/pre-junior">
+                <div>
+                    4
+                </div>
+            </NavLink>
+
+
 
         </div>
     )
