@@ -20,7 +20,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
             <option
                 className={restProps.value == i ? s.hoverElement : ''}
                 key={i}
-                value={String(i)}
+                value={el}
             >{el}</option>
         )
     }); // map options with key
