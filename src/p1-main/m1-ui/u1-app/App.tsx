@@ -8,6 +8,7 @@ import HW5 from '../../../p2-homeworks/h5/HW5'
 import HW6 from '../../../p2-homeworks/h6/HW6'
 import HW7 from '../../../p2-homeworks/h7/HW7'
 import HW8 from '../../../p2-homeworks/h8/HW8'
+import HW9 from '../../../p2-homeworks/h9/HW9'
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
         {id: 5, title: 'HomeWork 5' , collapse: false, component: <HW5 />},
         {id: 6, title: 'HomeWork 6' , collapse: false, component: <HW6 />},
         {id: 7, title: 'HomeWork 7' , collapse: false, component: <HW7 />},
-        {id: 8, title: 'HomeWork 8' , collapse: false, component: <HW8 />}
+        {id: 8, title: 'HomeWork 8' , collapse: false, component: <HW8 />},
+        {id: 9, title: 'HomeWork 9' , collapse: false, component: <HW9 />}
     ]);
 
     const onClickCollapse = (id: number) => {

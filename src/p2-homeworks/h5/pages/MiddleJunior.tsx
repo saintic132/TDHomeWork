@@ -13,12 +13,12 @@ function MiddleJunior() {
     const showHomework = [
         {id: 6, homework: <HW6/>},
         {id: 7, homework: <HW7/>},
-        {id: 8, homework: <HW8/>}
+        {id: 8, homework: <HW8/>},
     ]
 
     return (
         <div style={{
-            marginTop: "90px"
+            marginTop: "120px"
         }}>
 
             {
