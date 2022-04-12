@@ -13,6 +13,7 @@ function Junior_plus() {
 
     const lessonsArray: lessonsArrayType[] = [
         {id: 9, title: 'HomeWork 9'},
+        {id: 10, title: 'HomeWork 10'},
     ]
 
     const onClickShowButton = () => {
