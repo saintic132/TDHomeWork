@@ -10,8 +10,7 @@ import HW7 from '../../../p2-homeworks/h7/HW7'
 import HW8 from '../../../p2-homeworks/h8/HW8'
 import HW9 from '../../../p2-homeworks/h9/HW9'
 import HW10 from '../../../p2-homeworks/h10/HW10'
-import {Provider} from "react-redux";
-import store from "../../../p2-homeworks/h10/bll/store";
+import HW11 from "../../../p2-homeworks/h11/HW11";
 
 function App() {
 
@@ -25,7 +24,8 @@ function App() {
         {id: 7, title: 'HomeWork 7' , collapse: false, component: <HW7 />},
         {id: 8, title: 'HomeWork 8' , collapse: false, component: <HW8 />},
         {id: 9, title: 'HomeWork 9' , collapse: false, component: <HW9 />},
-        {id: 10, title: 'HomeWork 10' , collapse: false, component: <Provider store={store}> <HW10 /> </Provider>}
+        {id: 10, title: 'HomeWork 10' , collapse: false, component: <HW10 />},
+        {id: 11, title: 'HomeWork 11' , collapse: false, component: <HW11 />},
     ]);
 
     const onClickCollapse = (id: number) => {

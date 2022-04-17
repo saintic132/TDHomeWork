@@ -28,7 +28,7 @@ function HW10() {
             {loading
                 ? (
                     <div className={s.ring}>Loading
-                        <span></span>
+                        <span className={s.loaderSpan}></span>
                     </div>
                 ) : (
                     <div>
