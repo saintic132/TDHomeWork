@@ -15,6 +15,7 @@ function Junior_plus() {
         {id: 9, title: 'HomeWork 9'},
         {id: 10, title: 'HomeWork 10'},
         {id: 11, title: 'HomeWork 11'},
+        {id: 12, title: 'HomeWork 12'},
     ]
 
     const onClickShowButton = () => {
