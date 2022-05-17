@@ -18,7 +18,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     const mappedOptions: JSX.Element[] | undefined = options?.map((el, i) => {
         return (
             <option
-                className={restProps.value == i ? s.hoverElement : ''}
+                className={restProps.value === i ? s.hoverElement : ''}
                 key={i}
                 value={el}
             >{el}</option>

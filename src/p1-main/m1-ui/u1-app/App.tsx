@@ -12,6 +12,7 @@ import HW9 from '../../../p2-homeworks/h9/HW9'
 import HW10 from '../../../p2-homeworks/h10/HW10'
 import HW11 from "../../../p2-homeworks/h11/HW11";
 import HW12 from "../../../p2-homeworks/h12/HW12";
+import HW13 from "../../../p2-homeworks/h13/HW13";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         {id: 10, title: 'HomeWork 10' , collapse: false, component: <HW10 />},
         {id: 11, title: 'HomeWork 11' , collapse: false, component: <HW11 />},
         {id: 12, title: 'HomeWork 12' , collapse: false, component: <HW12 />},
+        {id: 13, title: 'HomeWork 13' , collapse: false, component: <HW13 />},
     ]);
 
     const onClickCollapse = (id: number) => {
