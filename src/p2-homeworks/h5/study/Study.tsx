@@ -1,8 +1,9 @@
 import React from "react";
 import s from "./Study.module.css";
-import Junior from "./junior/Junior";
-import Pre_Junior from "./pre_junior/Pre_Junior";
-import JuniorPlus from "./junior_plus/Junior_plus";
+import PreJunior from "./Pre-Junior/Pre-Junior";
+import LittleJunior from "./Little-Junior/Little-Junior";
+import Junior from "./Junior/Junior";
+import JuniorPlus from "./Junior-plus/Junior-plus";
 
 
 function Study() {
@@ -10,11 +11,13 @@ function Study() {
     return (
         <div className={s.studyNames}>
 
-            <Pre_Junior />
+            <LittleJunior />
+
+            <PreJunior/>
 
             <Junior/>
 
-            <JuniorPlus/>
+            <JuniorPlus />
 
         </div>
     )

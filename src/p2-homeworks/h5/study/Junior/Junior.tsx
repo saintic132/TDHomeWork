@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import s from "./Junior_plus.module.css";
+import s from "../common/ContainerStyle.module.css";
 import {NavLink} from "react-router-dom";
 
 type lessonsArrayType = {
@@ -7,7 +7,7 @@ type lessonsArrayType = {
     title: string
 }
 
-function Junior_plus() {
+function Junior() {
 
     let [collapsed, setCollapsed] = useState<boolean>(false);
 
@@ -24,16 +24,16 @@ function Junior_plus() {
 
 
     return (
-        <div className={s.preJunior}>
-            <div className={s.preJuniorName}>
-                <b onClick={onClickShowButton}>Pre-Junior</b>
+        <div className={s.junior}>
+            <div className={s.juniorName}>
+                <b onClick={onClickShowButton}>Junior</b>
             </div>
-            <div className={s.preJuniorLessons}>
+            <div className={s.juniorLessons}>
 
                 {collapsed &&
                 lessonsArray.map(el => {
 
-                    const activePage = `/junior_plus/${el.id}`
+                    const activePage = `/junior/${el.id}`
 
                     return (
                         <NavLink to={activePage}>
@@ -53,4 +53,4 @@ function Junior_plus() {
     )
 }
 
-export default Junior_plus
+export default Junior

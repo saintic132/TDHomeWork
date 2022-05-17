@@ -1,19 +1,21 @@
 import React from 'react'
-import HW6 from '../../h6/HW6'
-import HW7 from '../../h7/HW7'
-import HW8 from '../../h8/HW8'
+import HW1 from '../../h1/HW1'
+import HW2 from '../../h2/HW2'
+import HW3 from '../../h3/HW3'
+import HW4 from '../../h4/HW4'
 import {useParams} from "react-router-dom";
 
 
-function PreJunior() {
+function LittleJunior() {
 
     const param = useParams<'*'>()
     const some = Number(param["*"])
 
     const showHomework = [
-        {id: 6, homework: <HW6/>},
-        {id: 7, homework: <HW7/>},
-        {id: 8, homework: <HW8/>},
+        {id: 1, homework: <HW1/>},
+        {id: 2, homework: <HW2/>},
+        {id: 3, homework: <HW3/>},
+        {id: 4, homework: <HW4/>}
     ]
 
     return (
@@ -35,4 +37,4 @@ function PreJunior() {
     )
 }
 
-export default PreJunior
+export default LittleJunior
